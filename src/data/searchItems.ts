@@ -28,5 +28,6 @@ export const searchDatabase: SearchItem[] = [
   { title: 'Desfazer alterações não commitadas', cmd: 'git restore nome-do-arquivo', target: '#situacoes-comuns', cat: 'Situações Comuns', keywords: ['perigo', 'desfazer', 'restore'] },
   { title: '10 Regras da Freire&CO Tech Solutions', cmd: 'Mandamentos inegociáveis de engenharia', target: '#regras-telles-freire', cat: 'Regras Freire&CO', keywords: ['regras', 'mandamentos', 'padrao'] },
   { title: 'IA e Vibe Coding', cmd: 'Validação humana e responsabilidade', target: '#ia-vibe-coding', cat: 'IA', keywords: ['ia', 'chatgpt', 'copilot', 'vibe'] },
-  { title: 'Cheat Sheet rápido', cmd: 'Tabela de comandos mais frequentes', target: '#cheat-sheet', cat: 'Cheat Sheet', keywords: ['comandos', 'atalhos', 'resumo'] }
+  { title: 'Cheat Sheet rápido', cmd: 'Tabela de comandos mais frequentes', target: '#cheat-sheet', cat: 'Cheat Sheet', keywords: ['comandos', 'atalhos', 'resumo'] },
+  { title: 'Dúvidas Frequentes (FAQ)', cmd: '32 perguntas e respostas práticas', target: '#faq', cat: 'FAQ', keywords: ['faq', 'duvidas', 'perguntas', 'diferenca', 'git', 'github', 'commit', 'push', 'merge', 'ci', 'diff'] }
 ];
