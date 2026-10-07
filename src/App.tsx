@@ -16,6 +16,7 @@ import { CommonSituations } from './components/CommonSituations';
 import { Rules } from './components/Rules';
 import { AIGuidelines } from './components/AIGuidelines';
 import { CheatSheet } from './components/CheatSheet';
+import { FAQ } from './components/FAQ';
 import { Footer, Toast } from './components/Toast';
 import { SearchModal } from './components/SearchModal';
 import { ArrowUp } from 'lucide-react';
@@ -56,6 +57,7 @@ export const AppContent: React.FC = () => {
         <Rules />
         <AIGuidelines />
         <CheatSheet />
+        <FAQ />
       </main>
 
       <Footer />

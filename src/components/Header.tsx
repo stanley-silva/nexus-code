@@ -91,6 +91,12 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             >
               Regras Freire&CO
             </a>
+            <a
+              href="#faq"
+              className="text-slate-400 hover:text-white px-3 py-1.5 text-sm font-medium rounded-md hover:bg-white/5 transition-colors"
+            >
+              FAQ
+            </a>
           </nav>
 
           {/* 3. RIGHT ACTIONS (Compact Search + Cheat Sheet CTA) */}
@@ -172,6 +178,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSearch }) => {
             </a>
             <a href="#ia-vibe-coding" onClick={closeMobile} className="px-4 py-2.5 rounded-lg text-purple-400 hover:bg-purple-500/10 font-medium">
               13. IA & Vibe Coding
+            </a>
+            <a href="#faq" onClick={closeMobile} className="px-4 py-2.5 rounded-lg text-slate-200 hover:bg-white/5 font-medium">
+              14. Dúvidas Frequentes (FAQ)
             </a>
             <a href="#cheat-sheet" onClick={closeMobile} className="px-4 py-2.5 rounded-lg text-white bg-[#B01920] font-semibold text-center mt-3">
               ⚡ Acessar Cheat Sheet
