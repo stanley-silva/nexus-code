@@ -1,0 +1,66 @@
+/**
+ * TELLES FREIRE — DESIGN TOKENS
+ * Structure: Primitive -> Semantic -> Component
+ * Skill: design-system / brand
+ */
+
+:root {
+  /* ==========================================================================
+     1. LAYER 1: PRIMITIVES (Raw Values)
+     ========================================================================== */
+  --primitive-color-brand-red: #B01920;
+  --primitive-color-brand-red-hover: #D62831;
+  --primitive-color-brand-red-dark: #750F14;
+  --primitive-color-brand-red-light: #FF4754;
+
+  --primitive-color-dark-bg: #07080B;
+  --primitive-color-dark-surface: #0C0E14;
+  --primitive-color-dark-elevated: #11141C;
+  --primitive-color-dark-subtle: #171B26;
+  --primitive-color-dark-border: #1E2330;
+
+  --primitive-color-white: #FFFFFF;
+  --primitive-color-slate-100: #F1F5F9;
+  --primitive-color-slate-200: #E2E8F0;
+  --primitive-color-slate-400: #94A3B8;
+  --primitive-color-slate-500: #64748B;
+
+  --primitive-color-green: #22C55E;
+  --primitive-color-yellow: #F59E0B;
+  --primitive-color-red: #EF4444;
+  --primitive-color-blue: #38BDF8;
+  --primitive-color-purple: #A855F7;
+
+  --primitive-font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --primitive-font-mono: 'JetBrains Mono', Menlo, Consolas, monospace;
+
+  /* ==========================================================================
+     2. LAYER 2: SEMANTIC (Purpose-based)
+     ========================================================================== */
+  --color-primary: var(--primitive-color-brand-red);
+  --color-primary-hover: var(--primitive-color-brand-red-hover);
+  --color-primary-muted: rgba(176, 25, 32, 0.12);
+  --color-primary-border: rgba(176, 25, 32, 0.35);
+
+  --color-background: var(--primitive-color-dark-bg);
+  --color-surface: var(--primitive-color-dark-surface);
+  --color-surface-elevated: var(--primitive-color-dark-elevated);
+  --color-surface-hover: var(--primitive-color-dark-subtle);
+
+  --color-text-title: var(--primitive-color-white);
+  --color-text-body: var(--primitive-color-slate-200);
+  --color-text-muted: var(--primitive-color-slate-400);
+
+  --color-success: var(--primitive-color-green);
+  --color-warning: var(--primitive-color-yellow);
+  --color-danger: var(--primitive-color-red);
+  --color-info: var(--primitive-color-blue);
+
+  /* ==========================================================================
+     3. LAYER 3: COMPONENT (Component-specific)
+     ========================================================================== */
+  --btn-brand-bg: var(--color-primary);
+  --btn-brand-hover: var(--color-primary-hover);
+  --terminal-bg: #050608;
+  --terminal-border: rgba(255, 255, 255, 0.08);
+}
